@@ -1,93 +1,102 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
+
 <head>
+    <title>Princess Plus</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Em busca dos elementos da harmonia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <main>
-        <div class="passo ativo" id="passo-0">
-            <img src="mlp.jpg" alt="">
-            <p>No milésimo dia do aprisonamento de Nighmare Moon você descobre que ela irá retornar trazendo a noite eterna. Você decide:</p>
-            <button class="btn-proximo" data-proximo="1">Buscar um meio de derrota-la</button>
-            <button class="btn-proximo" data-proximo="2">Avisar a Princesa Celestia</button>
+    <section class="principal container">
+        <div class="container__caixa">
+            <h1 class="container__titulo">Torne-se uma princesa de Equestria com o Princesa+</h1>
+            <img src="myp1.png" alt="O combo+ é a junção do alura+ e o alura língua" class="container__imagem">
+            <a href="www.alura.com.br" class="container__botao">Assine por 12x de R$ 120,00*</a>
+            <a href="www.alura.com.br" class="container__botao botao_secundario">Assinar somente o Princesa+</a>
+            <p class="container__aviso">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
         </div>
-        <div class="passo" id="passo-1">
-            <img src="mlp2.jpg" alt="">
-            <p>Você busca por toda sua biblioteca e descobre que o único meio de derrota-la é com a ajuda dos Elementos da Harmonia.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar os Elementos com suas amigas</button>
-            <button class="btn-proximo" data-proximo="4">Desistir de encontrar os Elementos </button>
-        </div>
-        <div class="passo" id="passo-2">
-            <img src="mlp9.webp" alt="">
-            <p>Você corre para avisar a princesa mas ela não acredita em você</p>
-            <button class="btn-proximo" data-proximo="5">Pedir ajuda de suas amigas.</button>
-            <button class="btn-proximo" data-proximo="6">Ir atrás de um meio de derrota-la.</button>
-        </div>
-        <div class="passo" id="passo-3">
-            <img src="mlp4.png" alt="">
-            <p>Você se junta com suas amigas e juntas vcs vão atrás do Castelo das duas Irmãs para encontrar os Elementos.</p>
-            <button class="btn-proximo" data-proximo="7">Entrar na Floresta Everfree</button>
-        </div>
+    </section>
 
-        <div class="passo" id="passo-4">
-            <img src="mlp3.jpg" alt="">
-            <p>Você desiste de salvar Equestria, e Nightmare Moon vence, utilizando seus poderes para tornar a noite eterna...</p>
+    <section class="container secundario">
+        <img src="mlp5.png" alt="Um monitor e um celular com a alura plus aberta" class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Acesso ilimitado para todo lugar de Equestria</h2>
+            <p class="descricao__texto">Aproveite para acompanhar nosso curso onde você quiser. .</p>
         </div>
+    </section>
 
-        <div class="passo" id="passo-5">
-            <img src="myp1.png" alt="">
-            <p>Você pede ajuda para suas amigas e juntas vocês decidem ir para a floresta Everfree em busca de um meio para derrotar Nightmare Moon.</p>
-            <button class="btn-proximo" data-proximo="7">Ir para a floresta Everfree.</button>
+    <section class="container secundario">
+        <div class="container__descricao">
+            <p class="descricao__texto">
+                Torne-se uma princesa em até duas temporadas ou devolvemos seu dinheiro.
+            </p>
+            <a href="www.alura.com.br" class="container__botao secundario__botao" container>Assine o Alicórnio+</a>
         </div>
+        <img src="mlp6.png" alt="Tela do alura+ e alura língua" class="secundario__imagem">
+    </section>
 
-        <div class="passo" id="passo-6">
-            <img src="mlp2.jpg" alt="">
-            <p>Você busca por toda sua biblioteca e descobre que o único meio de derrota-la é com a ajuda dos Elementos da Harmonia.</p>
-            <button class="btn-proximo" data-proximo="8">Procurar os Elementos com suas amigas</button>
+    <section class="container secundario">
+        <img src="mlp7.jpeg" alt="Notebook com a página do curso HTML5 e CSS3 da Alura aberta"
+            class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Assine já</h2>
+            <p class="descricao__texto">Com os melhores professores de magia de toda Equestria.</p>
         </div>
+    </section>
 
-        <div class="passo" id="passo-7">
-            <img src="mlp5.png" alt="">
-            <p>Dentro da floresta vocês encontram o Castelo das Duas Irmãs</p>
-            <button class="btn-proximo" data-proximo="9">Entrar no castelo.</button>
-            <button class="btn-proximo" data-proximo="10">Explorar mais a floresta.</button>
-        </div>
+    <section class="dispositivos">
+        <h2 class="dispositivos__titulo">Disponível em todos os universos</h2>
+        <ul class="dispositivos__lista">
+            <li>
+                <img src="" alt="">
+                <h3 class="lista__item"></h3>
+            </li>
+            <li>
+                <img src="" alt="">
+                <h3 class="lista__item"></h3>
+            </li>
+            <li>
+                <img src="" alt="">
+                <h3 class="lista__item"></h3>
+            </li>
+        </ul>
+    </section>
 
-        <div class="passo" id="passo-8">
-            <img src="mlp4.png" alt="">
-            <p>Você se junta com suas amigas e juntas vocês vão para a floresta Everfree atrás dos Elementos da Harmonia.</p>
-            <button class="btn-proximo" data-proximo="7">Entrar na floresta.</button>
-        </div>
-
-        <div class="passo" id="passo-9">
-            <img src="mlp6.jpg" alt="">
-            <p>Entrando no Castelo vocês se deparam com Nightmare Moon junto dos Elementos da Harmonia.</p>
-            <button class="btn-proximo" data-proximo="11">Utilizar os Elementos da Harmonia.</button>
-        </div>
-
-        <div class="passo" id="passo-10">
-            <img src="myp2.png" alt="">
-            <p>Explorando mais a floresta, vocês encontram uma ponte quebrada.</p>
-            <button class="btn-proximo" data-proximo="12">Retornar para o Castelo das Duas Irmãs.</button>
-        </div>
-
-        <div class="passo" id="passo-11">
-            <img src="mlp8.jpg" alt="">
-            <p>Com os Elementos da Harmonia em mãos, vocês juntas derrotam Nightmare Moon.</p>
-        </div>
-
-        <div class="passo" id="passo-12">
-            <img src="mlp6.jpg" alt="">
-            <p>Retornando ao Castelo vocês se deparam com Nightmare Moon junto dos Elementos da Harmonia.</p>
-            <button class="btn-proximo" data-proximo="11">Utilizar os Elementos da Harmonia.</button>
-        </div>
-    </main>
-    <script src="script.js"></script>
+    <footer class="rodape">
+        <img src="img/Logo.png" alt="" class="rodape__logo">
+        <ul class="rodape__lista">
+            <li class="lista__link">
+                <a href="#">Idioma</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Dispositivos compatíveis</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Contrato de assinatura</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Politica de privacidade</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Proteção de dados no Brasil</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Anuncios personalizados</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Ajuda</a>
+            </li>
+        </ul>
+        <p class="rodape__texto">® 2021 Princesa, Princesa+ e Alicórnio. Todos os direitos reservados. Serviço de
+            assinatura paga. Conteúdo sujeito a disponibilidade.</p>
+        <p class="rodape__texto">Princesa+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O
+            serviço Princesa+ é comercializado por Celestial Lunática S.W., Rua Pegasus, 2001 - Poniville, Equestria - SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
+    </footer>
 </body>
+
 </html>
